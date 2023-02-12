@@ -184,6 +184,7 @@ header.sticky{
     padding: 45px 45px 45px 45px;
     transition: ease .50s;
     cursor: pointer;
+    background: #dffcea;
 }
 .sub-image img{
     max-width: 100%;
@@ -202,7 +203,7 @@ header.sticky{
     line-height: 29px;
 }
 .sub-box:hover{
-    background: #ffffff;
+    background: #d5f7e2;
     box-shadow: 18px 0px 87px 0px rgb(10, 15, 70 / 7%);
     border-radius: 12px;
     will-change: transform;
@@ -330,7 +331,7 @@ header.sticky{
    margin-bottom: 5rem;
 }
 .row{
-    background: #ffffff;
+    background: #dffcea;
     box-shadow: 18px 0px 87px 0px rgb(10, 15, 70 / 7%);
     border-radius: 12px;
     padding: 45px 45px 45px 45px;
@@ -370,6 +371,7 @@ header.sticky{
     line-height: 28px;
 }
 .row:hover{
+    background: #dffcea;
     will-change: transform;
     transform: perspective(1000px) rotateX(4.80deg) rotateY(10.23deg) scale3d(1.05,1.05,1.05);
 }
