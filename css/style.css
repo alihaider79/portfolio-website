@@ -593,4 +593,7 @@ header.sticky {
   .contact .action form input[type="email"] {
     width: 310px;
   }
+  .portfolio-content {
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  }
 }
