@@ -517,6 +517,11 @@ header.sticky {
   .home {
     min-height: 80vh;
   }
+  .logo img {
+    max-width: 100%;
+    width: 50px;
+    height: auto;
+  }
   .navlist {
     position: absolute;
     top: -600px;
@@ -595,5 +600,12 @@ header.sticky {
   }
   .portfolio-content {
     grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  }
+}
+@media (max-width: 350px) {
+  .logo img {
+    max-width: 100%;
+    width: 35px;
+    height: auto;
   }
 }
